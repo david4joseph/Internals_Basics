@@ -1,0 +1,17 @@
+{
+  "health_endpoint": "/health",
+  "predict_endpoint": "/estimate",
+  "port": 8000,
+  "health_response": {
+    "status": "running",
+    "model": "best_model",
+    "version": "1.0"
+  },
+  "test_input": {
+    "wind_speed_kmph": 15.9,
+    "humidity_pct": 69.5,
+    "payload_mass_kg": 12921.6,
+    "vehicle_type_index": 2
+  },
+  "prediction": 59.23494885698139
+}

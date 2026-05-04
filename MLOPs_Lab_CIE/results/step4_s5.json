@@ -1,0 +1,23 @@
+{
+  "total_predictions": 50,
+  "mean_prediction": 63.68819681724042,
+  "drift_detected": false,
+  "alerts": [
+    {
+      "feature": "wind_speed_kmph",
+      "train_mean": 17.004,
+      "live_mean": 21.71714742021077,
+      "shift": 4.71314742021077,
+      "threshold": 10.74,
+      "status": "OK"
+    },
+    {
+      "feature": "payload_mass_kg",
+      "train_mean": 10375.08,
+      "live_mean": 9446.807687634426,
+      "shift": 928.2723123655742,
+      "threshold": 3516.61,
+      "status": "OK"
+    }
+  ]
+}
