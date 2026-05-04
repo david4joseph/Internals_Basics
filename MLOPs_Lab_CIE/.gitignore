@@ -1,5 +1,4 @@
-# Python cache
-__pycache__/
+
 *.pyc
 *.pyo
 
@@ -7,12 +6,6 @@ __pycache__/
 venv/
 .env/
 
-# MLflow
-mlruns/
-mlflow.db
-
-# Logs (optional: you can keep or ignore)
-logs/*.jsonl
 
 # OS files
 .DS_Store
