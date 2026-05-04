@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Logs (optional: you can keep or ignore)
+logs/*.jsonl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
